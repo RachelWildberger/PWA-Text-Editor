@@ -29,6 +29,8 @@ module.exports = () => {
       }),
       // Add workbox plugins for manifest file.
       new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
         name: 'Just Another Text Editor',
         short_name: 'J.A.T.E',  
         description: 'Takes notes with JavaScript syntax highlighting!',
