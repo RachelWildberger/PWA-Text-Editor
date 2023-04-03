@@ -32,7 +32,7 @@ export const putDb = async (content) => {
 
 // Export a function we will use to GET to the database.
 export const getDb = async () => {
-  console.log('GET to the database');
+  console.log('GET from the database');
 
   const jateDb = await openDB('jate', 1);
   const tx = jateDb.transaction('jate', 'readonly')
@@ -41,7 +41,8 @@ export const getDb = async () => {
 
   // Get confirmation of the request.
   const result = await request;
-  console.log('🚀 Saved to the jate database', result);
+  console.log('result.value', result);
+  return result?.value;
 };
 
 initdb();
