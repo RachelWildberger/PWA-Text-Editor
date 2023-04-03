@@ -26,7 +26,17 @@
   - [IndexedDB](https://www.npmjs.com/package/indexeddb)
   
   ## Useage 
+  Run `npm run start` from the root directory to start up the backend and serve the client.
 
+  To use JATE click [here](https://glacial-badlands-51639.herokuapp.com/) to open the application in the browser. TO use JATE application offline, you can go to the link and click "install" to download to your applications. 
+
+
+
+  The following image shows the application from the browser:  
+  ![Jate Desktop](./assets/text-editor-4.png)
+
+  The following image shows the application installed on the desktop:  
+  ![Jate Installed](./assets/text-editor-5.png)
   ## Testing 
   n/a
   
