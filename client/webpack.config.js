@@ -32,9 +32,9 @@ module.exports = () => {
       }),
 
       new WebpackPwaManifest({
-        name: 'text-editor',
-        short_name: 'text-editor',  
-        description: 'Just another text editor',
+        name: 'Just Another Text Editor',
+        short_name: 'J.A.T.E',  
+        description: 'Takes notes with JavaScript syntax highlighting!',
         background_color: '#7eb4e2',  
         theme_color: '#7eb4e2',
         start_url: './',
