@@ -28,7 +28,7 @@
   ## Useage 
   Run `npm run start` from the root directory to start up the backend and serve the client.
 
-  To use JATE click [here](https://glacial-badlands-51639.herokuapp.com/) to open the application in the browser. TO use JATE application offline, you can go to the link and click "install" to download to your applications. 
+  To use JATE click [here](https://glacial-badlands-51639.herokuapp.com/) to open the application in the browser. To use JATE application offline, you can go to the link and click "install" to download to your applications. 
 
 
 
